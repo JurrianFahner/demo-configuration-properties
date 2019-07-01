@@ -1,0 +1,31 @@
+logging.level.nl: debug
+
+---
+spring.profile: noArgsDefined
+
+---
+spring.profile: onlyRolePropertiesOk
+
+demo-app:
+  roles:
+    - master
+    - slave
+
+---
+spring.profile: onlyServerPropertiesOk
+
+demo-app:
+  host: example.com
+  port: 80
+  proto: http
+
+---
+spring.profile: allPropertiesOk
+
+demo-app:
+  host: example.com
+  port: 443
+  proto: https
+  roles:
+    - master
+    - slave
