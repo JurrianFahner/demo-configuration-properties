@@ -14,7 +14,7 @@ An example implementation can be found [here][3].
 ## demos in this repo
 
 Each demo has a specific configuration. The configuration for each profile can be found in the 
-[applicaiton.yml](./application.yml).
+[application.yml](./application.yml).
 
 ```bash
 # All properties are checked and each are valid
@@ -32,5 +32,4 @@ SPRING_PROFILES_ACTIVE=onlyServerPropertiesOk mvn spring-boot:run
 
 
 [1]: https://github.com/spring-projects/spring-boot/blob/2.1.x/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationProperties.java
-[2]: ./todo.txt
 [3]: ./src/main/java/nl/ensignprojects/configurationpropertiesvalidation/AppConfigurationProperties.java
