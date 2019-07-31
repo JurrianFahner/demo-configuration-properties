@@ -1,4 +1,4 @@
-package nl.ensignprojects.configurationpropertiesvalidation;
+package nl.ensignprojects.configurationpropertiesvalidation.server;
 
 public interface ServerProperties {
     String getHost();
